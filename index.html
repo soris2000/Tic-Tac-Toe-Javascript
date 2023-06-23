@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
+    <title>Tic Tac Toe </title>
+</head>
+
+<body>
+    <h1 id="title-game">Tic Tac Toe</h1>
+    <div id="board"></div>
+    <div class="players">
+        <div class="player">
+            <p id="player-score">0</p>
+            <div class="row">
+                <img id="player-icon" src="" alt="player-icon">
+                <p>PLAYER</p>
+            </div>
+            <p id="player-turn"></p>
+        </div>
+        <div class="ties">
+            <p id="ties-score">0</p>
+            <div class="row">
+                <p>TIES</p>
+            </div>
+            <p id="ties-turn"></p>
+        </div>
+        <div class="ai">
+            <p id="ai-score">0</p>
+            <div class="row">
+                <img id="ai-icon" src="" alt="ai-icon">
+                <p>AI</p>
+            </div>
+            <p id="ai-turn"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
